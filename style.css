@@ -1,0 +1,94 @@
+/* default css start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    background: rebeccapurple;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+/* default css end */
+
+
+/* card css start */
+
+.custom-card{
+    padding: 40px 0;
+}
+
+.custom-card h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+.custom-card hr{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-contents{
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #ddd;
+    margin: 10px;
+    padding: 50px 30px;
+    transition: .5s all;
+    background: white;
+    border-radius: 10px;
+}
+.card-contents h1{
+    color: #222;
+}
+.card-contents p{
+    margin: 15px 0;
+}
+
+.card-contents img{
+    width: 40%;
+}
+
+.card-contents a{
+    padding: 10px 20px;
+    background: #222;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-top:10px;
+    transition: .4s;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.card-contents:hover{
+    background: #e6e6e6;
+    color: #222;
+}
+
+.card-contents a:hover{
+    background: transparent;
+    border: 2px solid #222;
+    color: #222;
+}
+
+
+
+
+
+/* card css end */
